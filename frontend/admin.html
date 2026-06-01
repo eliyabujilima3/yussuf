@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Contact Messages</title>
+  <link rel="stylesheet" href="css">
+</head>
+<body>
+  <section class="admin">
+    <h2 class="about-text">Admin Messages</h2>
+    <p>Use this page to view saved contact messages and reply to them.</p>
+
+    <div id="adminStatus" style="margin-bottom: 16px; color: blue;"></div>
+    <div id="messagesList"></div>
+  </section>
+
+  <footer>
+    <p>© 2026 Yussuf Maulid | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    // Local API backend for development.
+    // Replace the placeholder below with your deployed backend URL, for example:
+    // window.API_BASE = 'https://your-backend.vercel.app/api';
+    window.API_BASE = window.API_BASE || 'https://YOUR_BACKEND_URL/api';
+  </script>
+  <script src="admin.js"></script>
+</body>
+</html>

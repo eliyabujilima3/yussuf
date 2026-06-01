@@ -1,0 +1,12 @@
+# Python artifacts
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+
+# Database files
+backend/contacts.db
